@@ -14,5 +14,5 @@ You only need put the index.php on your web, and replace the "WEBHOOK_HERE"
 
 # Credits
 
-- Developed by [franafp.es](https://franafp.es)
-- My Discord [fran_afp_#0001](https://franafp.es/discord/profile)
+- Developed by [wtp.franafp.com](https://wtp.franafp.com)
+- My Discord [fran_afp_#0001](https://franafp.com/discord/profile)
