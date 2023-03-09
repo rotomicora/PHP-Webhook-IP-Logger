@@ -5,7 +5,8 @@ Easy script in PHP to receive a notification on Discord when someone visits your
 # Showcase
 
 ![image](https://user-images.githubusercontent.com/48841069/211213163-11daaf8c-6fbf-46f2-87bf-8e78e37cd663.png)
-- [Live Example](https://franafp.es/discordwhois) (**this grab your IP**)
+
+
 ```Message for retardeds -> This is not my IP, only a VPN hahahah```
 
 # Setup
